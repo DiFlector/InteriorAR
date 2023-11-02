@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e29f00d7c56da1f41b076f29664aa59e, type: 3}
+  m_Name: New Items Config
+  m_EditorClassIdentifier: 
+  Items:
+  - Title: "\u0414\u0438\u0432\u0430\u043D"
+    Prefab: {fileID: 4270495234359025665, guid: c708db5305159d949a89daa8abfc0ade, type: 3}
+    Price: 30
+  - Title: "\u0421\u0442\u0443\u043B"
+    Prefab: {fileID: 7416003909066115497, guid: 5c73196b2856a6146839d6a5b401b073, type: 3}
+    Price: 10
+  - Title: "\u0421\u0442\u043E\u043B"
+    Prefab: {fileID: 5615484750070618072, guid: 985467c74b141e94187d23ff3ba773b1, type: 3}
+    Price: 10
+  - Title: "\u0426\u0432\u0435\u0442\u043E\u043A"
+    Prefab: {fileID: 5615484750070618072, guid: 2b9e92bd4a3a84c44a8df89506a65d68, type: 3}
+    Price: 20
+  - Title: "\u0414\u043E\u0441\u043A\u0430"
+    Prefab: {fileID: 5615484750070618072, guid: 5edba99c82e978d4c8870f37e0582ed2, type: 3}
+    Price: 0
