@@ -21,7 +21,7 @@ public class ARMenu : MonoBehaviour
         UpdateButtons();
     }
 
-    private void UpdateButtons()
+    public void UpdateButtons()
     {
         for(int i = 0; i< _root.childCount; i++)
         {

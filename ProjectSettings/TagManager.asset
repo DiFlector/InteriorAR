@@ -7,6 +7,8 @@ TagManager:
   - Spawnpoint
   - wood
   - text
+  - Axe
+  - Tree
   layers:
   - Default
   - TransparentFX
@@ -16,7 +18,7 @@ TagManager:
   - UI
   - Menu
   - Button
-  - 
+  - TreeStore
   - 
   - 
   - 
