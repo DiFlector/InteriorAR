@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4978548288595672}
   - component: {fileID: 33943422407481030}
   - component: {fileID: 23927959942312130}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25,13 +25,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1072950975417084}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4667711334479238}
-  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &33943422407481030
 MeshFilter:
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 4919909973731474}
   - component: {fileID: 33150053386715260}
   - component: {fileID: 23616620315065862}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HeadAcoustic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108,13 +108,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1137551313567552}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4899084632755132}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &33150053386715260
 MeshFilter:
@@ -177,7 +177,7 @@ GameObject:
   - component: {fileID: 4806928500257758}
   - component: {fileID: 33999706000714008}
   - component: {fileID: 23434702958045736}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Head knobs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -191,13 +191,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1457672977819330}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4667711334479238}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &33999706000714008
 MeshFilter:
@@ -262,7 +262,7 @@ GameObject:
   - component: {fileID: 23956763382191414}
   - component: {fileID: 65344443980901928}
   - component: {fileID: 65655864541456060}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ElectricGuitar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -276,6 +276,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1463287773519430}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.61566144, y: -0, z: -0, w: 0.7880108}
   m_LocalPosition: {x: 0, y: 0.05, z: 0.0925}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -287,7 +288,6 @@ Transform:
   - {fileID: 4583660501257592}
   - {fileID: 4978548288595672}
   m_Father: {fileID: 4382252369937812}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 76, y: 0, z: 0}
 --- !u!33 &33597026827673078
 MeshFilter:
@@ -347,9 +347,17 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1463287773519430}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 0
-  serializedVersion: 2
+  serializedVersion: 3
   m_Size: {x: 0.3328331, y: 0.0575, z: 0.42333427}
   m_Center: {x: 0.00021932274, y: 0.0305, z: -0.19670565}
 --- !u!65 &65655864541456060
@@ -360,9 +368,17 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1463287773519430}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 0
-  serializedVersion: 2
+  serializedVersion: 3
   m_Size: {x: 0.1, y: 0.0235, z: 0.55}
   m_Center: {x: 0.005, y: 0.0475, z: -0.685}
 --- !u!1 &1471368343634810
@@ -376,7 +392,7 @@ GameObject:
   - component: {fileID: 4583660501257592}
   - component: {fileID: 33275999647151142}
   - component: {fileID: 23264837952940946}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: SoundReceivers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -390,13 +406,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1471368343634810}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4667711334479238}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &33275999647151142
 MeshFilter:
@@ -460,7 +476,8 @@ GameObject:
   - component: {fileID: 65614647223583066}
   - component: {fileID: 5721030325008759706}
   - component: {fileID: 5096989410987701088}
-  m_Layer: 0
+  - component: {fileID: 5878229873838564562}
+  m_Layer: 9
   m_Name: Stand+ElectricGuitar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -474,15 +491,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1477043620855026}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4667711334479238}
   - {fileID: 4899084632755132}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &65614647223583066
 BoxCollider:
@@ -492,9 +509,17 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1477043620855026}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_Size: {x: 0.38104826, y: 1.0107955, z: 0.2932896}
   m_Center: {x: -0.0012421906, y: 0.4927923, z: 0.03944406}
 --- !u!114 &5721030325008759706
@@ -526,7 +551,7 @@ MonoBehaviour:
   hostTransform: {fileID: 4382252369937812}
   manipulationType: 3
   twoHandedManipulationType: 7
-  allowFarManipulation: 1
+  allowFarManipulation: 0
   useForcesForNearManipulation: 0
   oneHandRotationModeNear: 1
   oneHandRotationModeFar: 1
@@ -554,6 +579,20 @@ MonoBehaviour:
   onHoverExited:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &5878229873838564562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477043620855026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5afd5316c63705643b3daba5a6e923bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowTetherWhenManipulating: 0
+  IsBoundsHandles: 0
 --- !u!1 &1514506481340508
 GameObject:
   m_ObjectHideFlags: 0
@@ -565,7 +604,7 @@ GameObject:
   - component: {fileID: 4665352846391976}
   - component: {fileID: 33633301118667442}
   - component: {fileID: 23701296623086536}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Arms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -579,13 +618,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1514506481340508}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4899084632755132}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &33633301118667442
 MeshFilter:
@@ -648,7 +687,7 @@ GameObject:
   - component: {fileID: 4167709697017444}
   - component: {fileID: 33169141799008308}
   - component: {fileID: 23929348925630718}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HeadAndNeck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -662,13 +701,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1636359124574394}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4667711334479238}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &33169141799008308
 MeshFilter:
@@ -732,7 +771,7 @@ GameObject:
   - component: {fileID: 4228154872211454}
   - component: {fileID: 33367386921806244}
   - component: {fileID: 23755564352939520}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HeadElectric
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -746,13 +785,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1733204841516042}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4899084632755132}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &33367386921806244
 MeshFilter:
@@ -816,7 +855,7 @@ GameObject:
   - component: {fileID: 33095457791972350}
   - component: {fileID: 23695376963355278}
   - component: {fileID: 65195567727895222}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GuitarStand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -830,6 +869,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1832906804258646}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -839,7 +879,6 @@ Transform:
   - {fileID: 4919909973731474}
   - {fileID: 4228154872211454}
   m_Father: {fileID: 4382252369937812}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &33095457791972350
 MeshFilter:
@@ -900,9 +939,17 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1832906804258646}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 0
-  serializedVersion: 2
+  serializedVersion: 3
   m_Size: {x: 0.35, y: 0.37, z: 0.265}
   m_Center: {x: 0.000000052154064, y: 0.178, z: 0.047}
 --- !u!1 &1848735439073866
@@ -916,7 +963,7 @@ GameObject:
   - component: {fileID: 4324476281747042}
   - component: {fileID: 33119284986575302}
   - component: {fileID: 23820605523586252}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Paint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -930,13 +977,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1848735439073866}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4667711334479238}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &33119284986575302
 MeshFilter:

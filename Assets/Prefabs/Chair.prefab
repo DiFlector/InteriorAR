@@ -11,8 +11,10 @@ GameObject:
   - component: {fileID: 2278513384110559696}
   - component: {fileID: 7349451104497480673}
   - component: {fileID: 3016574579336982093}
-  - component: {fileID: 7672773799942398032}
-  m_Layer: 0
+  - component: {fileID: 8553652883234609407}
+  - component: {fileID: 4761814074326298850}
+  - component: {fileID: 394750750602605265}
+  m_Layer: 9
   m_Name: Chair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 3932619759003896973}
@@ -64,7 +66,7 @@ MonoBehaviour:
   hostTransform: {fileID: 2278513384110559696}
   manipulationType: 3
   twoHandedManipulationType: 7
-  allowFarManipulation: 1
+  allowFarManipulation: 0
   useForcesForNearManipulation: 0
   oneHandRotationModeNear: 1
   oneHandRotationModeFar: 1
@@ -92,8 +94,8 @@ MonoBehaviour:
   onHoverExited:
     m_PersistentCalls:
       m_Calls: []
---- !u!64 &7672773799942398032
-MeshCollider:
+--- !u!65 &8553652883234609407
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -110,10 +112,50 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 3e36b10092da9e3468f154949204c9b1, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 0.5, y: 0.8, z: 0.5}
+  m_Center: {x: 0, y: 0.4, z: 0}
+--- !u!114 &4761814074326298850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7416003909066115497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5afd5316c63705643b3daba5a6e923bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowTetherWhenManipulating: 0
+  IsBoundsHandles: 0
+--- !u!54 &394750750602605265
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7416003909066115497}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &4736772758635747847
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -122,9 +164,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2278513384110559696}
     m_Modifications:
+    - target: {fileID: 8588115379147016866, guid: 3ffb42c9597b9b44da7cdfb5743e88c2, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8588115379147016872, guid: 3ffb42c9597b9b44da7cdfb5743e88c2, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 8588115379147016874, guid: 3ffb42c9597b9b44da7cdfb5743e88c2, type: 3}
       propertyPath: m_Name
       value: Dining_Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 8588115379147016874, guid: 3ffb42c9597b9b44da7cdfb5743e88c2, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8588115379147016876, guid: 3ffb42c9597b9b44da7cdfb5743e88c2, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8588115379147016878, guid: 3ffb42c9597b9b44da7cdfb5743e88c2, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8588115379147445898, guid: 3ffb42c9597b9b44da7cdfb5743e88c2, type: 3}
       propertyPath: m_LocalScale.x

@@ -13,7 +13,9 @@ GameObject:
   - component: {fileID: 5062357622485820252}
   - component: {fileID: 2159144284029875145}
   - component: {fileID: 196864666283280036}
-  m_Layer: 0
+  - component: {fileID: 5881164130616829674}
+  - component: {fileID: 5811972543732621528}
+  m_Layer: 9
   m_Name: Plant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4794149942833677495}
@@ -65,7 +67,7 @@ MonoBehaviour:
   hostTransform: {fileID: 2968878791402537970}
   manipulationType: 3
   twoHandedManipulationType: 7
-  allowFarManipulation: 1
+  allowFarManipulation: 0
   useForcesForNearManipulation: 0
   oneHandRotationModeNear: 1
   oneHandRotationModeFar: 1
@@ -137,6 +139,47 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300004, guid: e0bf51c05a4e17e47b94306301d09d5e, type: 3}
+--- !u!54 &5881164130616829674
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5615484750070618072}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &5811972543732621528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5615484750070618072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5afd5316c63705643b3daba5a6e923bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowTetherWhenManipulating: 0
+  IsBoundsHandles: 0
 --- !u!1001 &6732286482119351875
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -145,9 +188,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2968878791402537970}
     m_Modifications:
+    - target: {fileID: 2298488487913670352, guid: da7afa674a6fd354a93985d54347752f, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2298488487913670354, guid: da7afa674a6fd354a93985d54347752f, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2298488487913670356, guid: da7afa674a6fd354a93985d54347752f, type: 3}
       propertyPath: m_Name
       value: Plant_Potted_Monstera_Deliciosa
+      objectReference: {fileID: 0}
+    - target: {fileID: 2298488487913670356, guid: da7afa674a6fd354a93985d54347752f, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2298488487913670358, guid: da7afa674a6fd354a93985d54347752f, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2298488487913773812, guid: da7afa674a6fd354a93985d54347752f, type: 3}
       propertyPath: m_LocalPosition.x

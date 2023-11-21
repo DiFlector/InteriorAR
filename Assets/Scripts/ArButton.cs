@@ -21,11 +21,12 @@ public class ArButton : MonoBehaviour
         spawnpoint = GameObject.FindGameObjectsWithTag("Spawnpoint");
 
         _interactable.OnClick.AddListener(ProcessClick);
-    }
+    } 
 
     private void ProcessClick()
     {
         OnButtonClicked?.Invoke();
-        Instantiate(_prefab, spawnpoint[0].transform.position, Quaternion.identity);  
+        print(new Vector3(spawnpoint[0].transform.position.x, 0f, spawnpoint[0].transform.position.z));
+        Instantiate(_prefab, new Vector3(spawnpoint[0].transform.position.x, 0f, spawnpoint[0].transform.position.z), Quaternion.identity);  
     }
 }
