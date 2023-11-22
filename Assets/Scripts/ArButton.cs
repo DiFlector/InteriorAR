@@ -26,7 +26,6 @@ public class ArButton : MonoBehaviour
     private void ProcessClick()
     {
         OnButtonClicked?.Invoke();
-        print(new Vector3(spawnpoint[0].transform.position.x, 0f, spawnpoint[0].transform.position.z));
         Instantiate(_prefab, new Vector3(spawnpoint[0].transform.position.x, 0f, spawnpoint[0].transform.position.z), Quaternion.identity);  
     }
 }
