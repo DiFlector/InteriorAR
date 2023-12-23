@@ -34,18 +34,18 @@ MonoBehaviour:
   - Title: Table 50
     Prefab: {fileID: 8014036971784306386, guid: c65426a375c90574a95eaaf4840e9481, type: 3}
     Price: 50
-  - Title: Vase 300
-    Prefab: {fileID: 6698533136370866307, guid: 44b00c7db33473946ad48053b41e081f, type: 3}
-    Price: 300
+  - Title: Light 10
+    Prefab: {fileID: 8583780524957933453, guid: 610905075ec089447848df0da7ca17e2, type: 3}
+    Price: 10
   - Title: Chair 200
     Prefab: {fileID: 907737577407192764, guid: 3c94a574020d3de429d0c295b3a83db4, type: 3}
     Price: 200
-  - Title: Acous. guitar 300
-    Prefab: {fileID: 1748775582676494, guid: 51482f01f4bd0804191a8259836d07ea, type: 3}
-    Price: 300
-  - Title: Electro-guitar 1000
+  - Title: ElectroGuitar 500
     Prefab: {fileID: 1571930597263512, guid: a4073fe1b57c21040b49feae5219aa3c, type: 3}
-    Price: 1000
+    Price: 500
   - Title: Combobox 400
     Prefab: {fileID: 1451335497540466, guid: f6e79b980ef50d74e8044fa2bd870045, type: 3}
     Price: 400
+  - Title: Ball 50
+    Prefab: {fileID: 1975457108487340, guid: ec3e8f3ed27e2244caaedaf589590a03, type: 3}
+    Price: 50
