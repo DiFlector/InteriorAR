@@ -9,6 +9,8 @@ TagManager:
   - text
   - Axe
   - Tree
+  - FxTemporaire
+  - ShopItem
   layers:
   - Default
   - TransparentFX
@@ -21,7 +23,7 @@ TagManager:
   - TreeStore
   - Object
   - Player
-  - 
+  - Spawnpoint
   - 
   - 
   - 

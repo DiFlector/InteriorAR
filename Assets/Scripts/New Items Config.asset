@@ -13,39 +13,39 @@ MonoBehaviour:
   m_Name: New Items Config
   m_EditorClassIdentifier: 
   Items:
-  - Title: Sofa 30
+  - Title: Sofa 100
     Prefab: {fileID: 4270495234359025665, guid: c708db5305159d949a89daa8abfc0ade, type: 3}
-    Price: 30
-  - Title: Chair 10
+    Price: 100
+  - Title: Chair 100
     Prefab: {fileID: 7416003909066115497, guid: 5c73196b2856a6146839d6a5b401b073, type: 3}
-    Price: 10
-  - Title: Table 10
+    Price: 100
+  - Title: Table 100
     Prefab: {fileID: 5615484750070618072, guid: 985467c74b141e94187d23ff3ba773b1, type: 3}
-    Price: 10
-  - Title: Flower 20
+    Price: 100
+  - Title: Flower 100
     Prefab: {fileID: 5615484750070618072, guid: 2b9e92bd4a3a84c44a8df89506a65d68, type: 3}
-    Price: 20
-  - Title: Box 50
+    Price: 100
+  - Title: Box 100
     Prefab: {fileID: 5129442236857904303, guid: e37d55d9adae8724c9dcf1dff5b67578, type: 3}
-    Price: 50
+    Price: 100
   - Title: Book 100
     Prefab: {fileID: 4957231571477918332, guid: 92d4430c1aabefa4691079bac409cbf9, type: 3}
     Price: 100
-  - Title: Table 50
+  - Title: Table 100
     Prefab: {fileID: 8014036971784306386, guid: c65426a375c90574a95eaaf4840e9481, type: 3}
-    Price: 50
-  - Title: Light 10
+    Price: 100
+  - Title: Light 100
     Prefab: {fileID: 8583780524957933453, guid: 610905075ec089447848df0da7ca17e2, type: 3}
-    Price: 10
-  - Title: Chair 200
+    Price: 100
+  - Title: Chair 100
     Prefab: {fileID: 907737577407192764, guid: 3c94a574020d3de429d0c295b3a83db4, type: 3}
-    Price: 200
-  - Title: ElectroGuitar 500
+    Price: 100
+  - Title: ElectroGuitar 100
     Prefab: {fileID: 1571930597263512, guid: a4073fe1b57c21040b49feae5219aa3c, type: 3}
-    Price: 500
-  - Title: Combobox 400
+    Price: 100
+  - Title: Combobox 100
     Prefab: {fileID: 1451335497540466, guid: f6e79b980ef50d74e8044fa2bd870045, type: 3}
-    Price: 400
-  - Title: Ball 50
+    Price: 100
+  - Title: Ball 100
     Prefab: {fileID: 1975457108487340, guid: ec3e8f3ed27e2244caaedaf589590a03, type: 3}
-    Price: 50
+    Price: 100
