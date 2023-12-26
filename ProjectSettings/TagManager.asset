@@ -11,6 +11,7 @@ TagManager:
   - Tree
   - FxTemporaire
   - ShopItem
+  - SpatialAwereness
   layers:
   - Default
   - TransparentFX
@@ -24,7 +25,7 @@ TagManager:
   - Object
   - Player
   - Spawnpoint
-  - 
+  - Wall
   - 
   - 
   - 
