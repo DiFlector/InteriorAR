@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
+using TMPro;
 
 public class GridFixer : MonoBehaviour
 {
@@ -17,12 +18,13 @@ public class GridFixer : MonoBehaviour
 
     public bool objectIsFix;
 
+
     // Start is called before the first frame update
     void Start()
     {
         fixCube = GameObject.FindWithTag("GridCube");
         cubePosition = fixCube.transform;
-        gridSize = 0.1f;
+        gridSize = 0.01f;
         isGrab = false;
         objectIsFix = false;
         relativePosition = transform.position - cubePosition.position;
@@ -32,6 +34,7 @@ public class GridFixer : MonoBehaviour
     void Update()
     {
         objectIsFix = fixCube.GetComponent<GridFixMainCube>().fixIsTrue;
+        gridSize = fixCube.GetComponent<GridFixMainCube>().gridSize;
 
         if (!isGrab)
         {

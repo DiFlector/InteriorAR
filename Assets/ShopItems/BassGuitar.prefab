@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4221779435940404}
   - component: {fileID: 33469684407540938}
   - component: {fileID: 23632815053393638}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: SoundReceivers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   - component: {fileID: -8181241889873210154}
   - component: {fileID: 5634560334188493334}
   - component: {fileID: 7528152476972845873}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: BassGuitar
   m_TagString: ShopItem
   m_Icon: {fileID: 0}
@@ -282,7 +282,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: -3328226423126695957}
+  constraintsManager: {fileID: 4270495234359025671, guid: c708db5305159d949a89daa8abfc0ade, type: 3}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -408,7 +408,7 @@ GameObject:
   - component: {fileID: 4759045378381228}
   - component: {fileID: 33103616464771926}
   - component: {fileID: 23900109751835240}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: HeadAndNeck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -491,7 +491,7 @@ GameObject:
   - component: {fileID: 4894787345003732}
   - component: {fileID: 33161999038242628}
   - component: {fileID: 23398284161106480}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Head knobs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -574,7 +574,7 @@ GameObject:
   - component: {fileID: 4355682158603554}
   - component: {fileID: 33666051748676586}
   - component: {fileID: 23512698000610904}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Strings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -658,7 +658,7 @@ GameObject:
   - component: {fileID: 4904823200538756}
   - component: {fileID: 33313877695558410}
   - component: {fileID: 23670882567286196}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: bodyPaint
   m_TagString: Untagged
   m_Icon: {fileID: 0}

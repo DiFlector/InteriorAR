@@ -8,6 +8,10 @@ public class SpawnpointScript : MonoBehaviour
     public GameObject currentObject;
     public bool checkObject;
 
+    public GameObject platform;
+    public Material mat1;
+    public Material mat2;
+
     private void Start()
     {
         checkObject = false;
@@ -19,6 +23,7 @@ public class SpawnpointScript : MonoBehaviour
         {
             checkObject = true;
             currentObject = other.gameObject;
+            platform.GetComponent<MeshRenderer>().material = mat1;
         }
     }
 
@@ -28,6 +33,7 @@ public class SpawnpointScript : MonoBehaviour
         {
             checkObject = false;
             currentObject = other.gameObject;
+            platform.GetComponent<MeshRenderer>().material = mat2;
         }
     }
 }
