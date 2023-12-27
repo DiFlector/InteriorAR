@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4011512085260438}
   - component: {fileID: 33872754311253400}
+  - component: {fileID: -482485873903650104}
   - component: {fileID: 23774891683970246}
   - component: {fileID: 151680992594775029}
   - component: {fileID: 3753143781125000551}
@@ -49,6 +50,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1748775582676494}
   m_Mesh: {fileID: 4300000, guid: 00999be0898609343b1b75422f0c8bfe, type: 3}
+--- !u!114 &-482485873903650104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748775582676494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: beeef69bcd89b5f46b6d7b6e07b42d41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fixCube: {fileID: 0}
+  cubePosition: {fileID: 0}
+  relativePosition: {x: 0, y: 0, z: 0}
+  gridSize: 0
+  isGrab: 0
+  objectIsFix: 0
 --- !u!23 &23774891683970246
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -165,9 +184,33 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: -482485873903650104}
+        m_TargetAssemblyTypeName: GridFixer, Assembly-CSharp
+        m_MethodName: grab
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onManipulationEnded:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: -482485873903650104}
+        m_TargetAssemblyTypeName: GridFixer, Assembly-CSharp
+        m_MethodName: unGrab
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -186,7 +229,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cb8db3580d232e49908eda4740004e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  connected: 0
 --- !u!114 &832445862188385001
 MonoBehaviour:
   m_ObjectHideFlags: 0

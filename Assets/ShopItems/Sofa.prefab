@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4270495234359025691}
   - component: {fileID: 4270495234359025671}
+  - component: {fileID: 6873187262264266949}
   - component: {fileID: 4270495234359025664}
   - component: {fileID: -3112173901024693827}
   - component: {fileID: 2401171180897128268}
@@ -53,6 +54,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoConstraintSelection: 1
   selectedConstraints: []
+--- !u!114 &6873187262264266949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4270495234359025665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: beeef69bcd89b5f46b6d7b6e07b42d41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fixCube: {fileID: 0}
+  cubePosition: {fileID: 0}
+  relativePosition: {x: 0, y: 0, z: 0}
+  gridSize: 0
+  isGrab: 0
+  objectIsFix: 0
 --- !u!114 &4270495234359025664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111,9 +130,33 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 6873187262264266949}
+        m_TargetAssemblyTypeName: GridFixer, Assembly-CSharp
+        m_MethodName: grab
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onManipulationEnded:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6873187262264266949}
+        m_TargetAssemblyTypeName: GridFixer, Assembly-CSharp
+        m_MethodName: unGrab
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onHoverEntered:
     m_PersistentCalls:
       m_Calls: []

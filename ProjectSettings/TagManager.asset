@@ -12,6 +12,7 @@ TagManager:
   - FxTemporaire
   - ShopItem
   - SpatialAwereness
+  - GridCube
   layers:
   - Default
   - TransparentFX
@@ -26,7 +27,7 @@ TagManager:
   - Player
   - Spawnpoint
   - Wall
-  - 
+  - Platform
   - 
   - 
   - 
